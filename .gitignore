@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+ENV/
+env/
+.Python
+
+# PyInstaller build output
+dist/
+build/
+*.spec
+
+# Logs
+*.log
+
+# Mac/Linux/Windows system files
+.DS_Store
+Thumbs.db
+
+# User configuration files
+*.swp
+*.swo
+
+# VSCode and IDE settings
+.vscode/
+.idea/
+
+# Backup files
+*.bak
+*.tmp
+
+# CSV/email/client data (optional if you want to exclude user data)
+assets/client/*.csv
+
+# Optional: Exclude receipts and uploaded files if not for versioning
+receipts/
+assets/files/
+
+# If using __pyinstaller hooks__
+hook-*.py
